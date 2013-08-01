@@ -1,6 +1,3 @@
-require 'sinatra/base'
-require 'json'
-
 module Sinatra
 	module Helpers
 		def help_me_rhonda
