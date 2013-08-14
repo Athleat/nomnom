@@ -8,5 +8,6 @@ class Recipe
 	property :created_at, DateTime
 	property :updated_at, DateTime
 
+  belongs_to :plan
 	has n, :ingredients
 end

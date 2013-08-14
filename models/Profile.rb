@@ -5,5 +5,5 @@ class Profile
 	property :created_at, DateTime
 	property :updated_at, DateTime
 
-	belongs_to, :user
+	belongs_to :user
 end

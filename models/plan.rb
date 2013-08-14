@@ -9,5 +9,5 @@ class Plan
 	property :created_at, DateTime
 	property :updated_at, DateTime
 
-	has n, :meals, through: :meal_plan?
+	has n, :meals
 end

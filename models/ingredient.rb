@@ -7,5 +7,5 @@ class Ingredient
 	property :created_at, DateTime
 	property :updated_at, DateTime
 
-	belongs_to, :recipe
+	belongs_to :recipe
 end
