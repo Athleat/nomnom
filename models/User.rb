@@ -8,6 +8,6 @@ class User
 	property :created_at, DateTime
 	property :updated_at, DateTime
 
-	has one, :profile
-	has one, :shopping_list
+	has 1, :profile
+	has 1, :shopping_list
 end

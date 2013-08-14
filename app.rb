@@ -6,7 +6,7 @@ require 'dm-postgres-adapter'
 DataMapper::Logger.new($stdout, :debug)
 DataMapper::Property::String.length(250)
 #DataMapper.setup(:default, "sqlite://#{File.expand_path(File.dirname(__FILE__))}/sample.sqlite")
-DataMapper.setup(:default, "postgres://localhost/square-peg")
+DataMapper.setup(:default, "postgres://localhost/nomnom")
 
 class App < Sinatra::Base
 	helpers Sinatra::Helpers
