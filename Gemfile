@@ -7,6 +7,7 @@ gem 'dm-postgres-adapter'
 gem 'sinatra-reloader'
 gem 'unicorn'
 gem 'rspec'
+gem 'haml'
 
 gem 'capistrano'
 gem 'capistrano-ext'

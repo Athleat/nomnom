@@ -1,0 +1,29 @@
+%form{ :action => '/signup', :method => 'post'}
+  %fieldset
+    %ul
+      -#%li
+      -#  %label{:for => 'first_name'} First Name:
+      -#  %input{:name => 'first_name', :type => 'text', :class => 'text'}
+      -#%li
+      -#  %label{:for => 'last_name'} Last Name:
+      -#  %input{:name => 'last_name', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'username'} username:
+        %input{:name => 'username', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'email'} email:
+        %input{:name => 'email', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'password'} password:
+        %input{:name => 'password', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'zip_code'} zip code:
+        %input{:name => 'zip_code', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'birthday'} birthday:
+        %input{:name => 'birthday', :type => 'text', :class => 'text'}
+      %li
+        %label{:for => 'gender'} gender:
+        %select{:name => 'gender'}
+          %option{:value => 'M'} Male
+          %option{:value => 'F'} Female

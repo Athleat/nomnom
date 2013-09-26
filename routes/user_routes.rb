@@ -1,10 +1,10 @@
 class App < Sinatra::Base
 	get '/signup' do
 		#get_signup
-		erb :signup, :locals => {local_erb_var: "xyz"}
+		haml :signup
 	end
 	get '/signin' do
-		erb :signin
+		haml :signin
 	end
 	post '/signin' do
 		if post_signin

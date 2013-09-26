@@ -68,6 +68,8 @@ GEM
       data_objects (= 0.10.12)
     eventmachine (1.0.3)
     fastercsv (1.5.5)
+    haml (4.0.3)
+      tilt
     highline (1.6.19)
     json (1.7.7)
     json_pure (1.7.7)
@@ -124,6 +126,7 @@ DEPENDENCIES
   data_mapper
   dm-postgres-adapter
   dm-sqlite-adapter
+  haml
   rspec
   sinatra
   sinatra-reloader
